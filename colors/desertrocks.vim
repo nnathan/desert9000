@@ -381,9 +381,8 @@ if exists('g:desertrocks_show_whitespace')
             \ syntax match TrailingWS    /\v\s\ze\s*$/  containedin=ALL
     augroup END
 
-    " missing guibg
-    highlight Tab ctermbg=234
-    highlight TrailingWS ctermbg=203
+    highlight Tab ctermbg=234 guibg=Grey11
+    highlight TrailingWS ctermbg=203 guibg=IndianRed1
 endif
 
 " vim: set fdl=0 fdm=marker:
